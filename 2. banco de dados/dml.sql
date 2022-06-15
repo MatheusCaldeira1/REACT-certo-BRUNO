@@ -15,7 +15,7 @@ select id_usuario 		id,
 
 
   insert into  tb_prontuario_paciente(
-id_funcionario,
+id_usuario,
 nm_paciente,             	   dt_nascimento,
 ds_cep,                        ds_endereco,
 ds_telefone,                   dt_consulta,

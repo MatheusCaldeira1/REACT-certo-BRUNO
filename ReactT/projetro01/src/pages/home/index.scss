@@ -1,6 +1,6 @@
 .page-home{
     .k{
-        margin-top: 1.5em;
+        margin-top: 1em;
         margin-left: 0.5em;
         color: rgb(189, 140, 140);
         
@@ -111,7 +111,7 @@
         display: flex;
         flex-direction: column;
         background-color:  #D7C5FF;
-        justify-content: center;
+        justify-content: space-around;
         text-align: center;
         align-items: center;
         height: 60vh;
@@ -143,7 +143,6 @@
         text-align: center;
     }
     .v2{
-        margin-top: 6em;
         text-align: center;
     }
     .v3{
@@ -162,9 +161,7 @@
         height: 60vh;
     
     }
-    .v7{
-        margin-top: 3em;
-    }
+    
     .v8{
      display: flex;
      flex-direction: row;
@@ -203,14 +200,14 @@
     
     }
     .img3{
-        height: 400px;
-         width: 400px;
+        height: 290px;
+         width: 320px;
          margin-top: 2em ;
     
     
     }
     .img4{
-        height: 400px;
+        height: 350px;
          width: 400px;
     
     
@@ -223,14 +220,17 @@
         background-color: rgb(33, 47, 167);
         margin-top: 1em;
         margin-right: 0.6em;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 15px;
+        font-family:'discord3', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+
        
     }
     .b1:hover{
         cursor: pointer;
         background-color: rgb(218, 177, 245);
-    
-        padding:13px 21px ;
+        transition:  .3s;
+        transform: scale(1.05);
        
     }
     a{
@@ -244,8 +244,9 @@
         background-color: #C7A5FE;
         border-radius: 20px;
         overflow: hidden;
-        box-shadow: 0px 0px 10px rgba(114, 113, 113, 0.7);
-        transition:  background-color 1s;
+ 
+        transition:  .3s;
+        padding: 15px;
     }
     .cardx{
         width: 300px;
@@ -254,23 +255,26 @@
         border-radius: 20px;
         overflow: hidden;
         box-shadow: 0px 0px 10px rgba(114, 113, 113, 0.7);
-        transition:  background-color 1s;
+        transition:  .3s;
+        padding: 15px;
     }
     
     .card:hover{
         width: 300px;
         height: 500px;
         background-color: #4b10aa;
-       padding: 5px 5px;
+        transform: scale(1.05);
        color: beige;
+       box-shadow: 10px 5px 5px rgb(179, 177, 177);
        
     }
     .cardx:hover{
         width: 300px;
         height: 500px;
         background-color: #4b10aa;
-       padding: 5px 5px;
+        transform: scale(1.05);
        color: beige;
+       box-shadow: 10px 5px 5px rgb(179, 177, 177);
     }
     .imgcard{
         height: 255px;
@@ -297,16 +301,16 @@
     }
     
     .containerx{
-        margin-top: 5em;
-        height: 30vh;
-        padding: 6em;
+        margin-top: 1em;
+        
+      padding: 2px;
         display: flex;
         flex-direction: column;
         text-align: center;
-        justify-content: center;
+     
         align-items: center;
         background-color: #D7C5FF ;
-        height: 60vh;
+        height: 70vh;
     }
     .texto2{
         font-size: 26px;
@@ -333,22 +337,23 @@
     }
     h3{
         font-family: 'discord1';
-        line-height: 3px;
+        line-height: 1.7em;
         font-size: 60px;
         color: rgb(5, 5, 5);
     }
     
     p{
-        font-family: 'discord5';
-        line-height: 3px;
-        font-size: 26px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 1.2em;
+        font-size: 20px;
     }
     
     h1{
         font-family: 'discord5';
-        line-height: 3px;
         font-size: 48px;
         color: #2C52AC;
+        margin-top: 25px;
+        line-height: 0.5em;
         
     
     }
@@ -371,6 +376,7 @@
      }
      .v2{
         margin: 0px;
+      
      }
      .img2{
         height: 200px;
@@ -413,9 +419,6 @@
         display: flex;
         flex-direction: column;
     }
-    .sub5{
-        height: 60vh;
-    }
     .sub{
         height: 40vh;
         display: flex;
@@ -453,7 +456,8 @@
         text-align: center;
         justify-content: center;
         font-size: 15px;
-        width: 420px;
+      
+       
         font-family: 'discord5';
     }
 
@@ -550,5 +554,3 @@
     src: url('../../../public/fontes/be0060dafb7a0e31d2a1ca17c0708636.woff');
 }
  
-
-

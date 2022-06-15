@@ -197,8 +197,8 @@ function botaoAlterarSalvar(){
                     <input  type="checkbox" checked={temtratant} onChange={e => setTemtratant(e.target.checked)}/>
                     </div>
                     <div>
-                    <label for="input">Não Usa Medicamentos</label>
-                    <input type="checkbox" checked={usamedicamentos} onChange={e => setUsamedicamentos(e.target.checked)}/>
+                    <label  className='c2' for="input"> Não Usa Medicamentos</label>
+                    <input  type="checkbox" checked={usamedicamentos} onChange={e => setUsamedicamentos(e.target.checked)}/>
                 </div>
 
                 <div  >

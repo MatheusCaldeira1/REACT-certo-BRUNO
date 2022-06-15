@@ -70,7 +70,7 @@ export default function Index(){
     <div className='sub5'>
       <div>
         <h1>A Importancia de ter </h1>
-        <h1>um  Psicologo</h1>
+        <h1>um  Psicólogo</h1>
       </div>
 
       <div  className='subcontainer4'>
@@ -184,8 +184,9 @@ export default function Index(){
                 <img className='imgcard' src='./image/Post-traumatic stress disorder-amico (1).png' alt=''/>
               </div>
               <div >
-                    <spam className='buttomText'>A persistência de emoções como a tristeza e a frustração pode desencadear desequilíbrios químicos no organismo que causam transtornos mentais mais sérios, e nos da saude mental ajudaremos voçe vençer todo esse prosseso</spam>
+                    <spam className='buttomText'>Mudanças de comportamento ou de humor, dificuldade de raciocínio ou concentração, problemas para conviver com outras pessoas ou expressar ideias com coerência, todos esses podem ser sinais de um transtorno mental.</spam>
               </div>
+            
             </div>
      
       </div>
@@ -193,7 +194,7 @@ export default function Index(){
     </div>
     <div className='containerx'>
       <h1>Sobre Nós</h1>
-        <div className='texto2'> Nós somos um consultório de psicologia que atua na área desde 2012. E temos como missão
+        <div className='texto2'> Nós somo um um clinica   de psicologia, que atua na área desde 2012. E temos como missão
         ajudar os nossos pacientes,  através da psicologia,  a  ter uma boa saúde mental </div>
       <div>
         <img className='imgx' src='./image/Mental health-amico.png' alt=''/>

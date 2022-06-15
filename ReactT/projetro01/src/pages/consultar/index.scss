@@ -73,10 +73,11 @@
     img{
         height: 42px;
         margin-left: 1em ;
+        transition:  .3s;
     }
     img:hover{
         cursor: pointer;
-        height: 45px;
+        transform: scale(1.5s);
     }
 
     input{

@@ -1,5 +1,5 @@
 .page-cadrastro{
-    background-image: linear-gradient(100deg, rgb(63, 243, 243), rgb(31, 77, 230));
+    background-image: linear-gradient(100deg, rgb(138, 228, 240), rgb(100, 229, 247));
     padding: 2em;
  
     .main{
@@ -13,10 +13,8 @@
         justify-content: space-evenly;
         margin-top: 5em;
     }
-    .c2{
-        
-        
-         
+     .c2{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
      }
      .DIB{
          align-items: flex-start;
@@ -72,16 +70,18 @@
     }
     
     .button{
+        font-family:sans-serif;
         padding: 10px 10px;
        background-color: #4b10aa;
        text-decoration: none;
        border-radius: 20px;
        transition:  background-color 1s;
        color: white;
+       transform: scale(1.05);
        font-size: 15px;
     }
     .button:hover{
-        padding: 12px 12px;
+        transform: scale(0.5s);
         background-color: #8740f8;
      }
 
@@ -92,12 +92,14 @@
         border: none;
         background-color: #2848ff;
         color: white;
+        transform: scale(1.05);
         align-items: center;
     }
     button:hover{
         cursor: pointer;
         background-color: #4c66f8;
         color: white;
+        transform: scale(1.5s);
     }
     
     textarea{
@@ -120,7 +122,7 @@
     
     
     .botao{
-       
+        transform: scale(1.05);
         align-items: center;
         justify-content: center;
         background-color: #2848ff;
@@ -138,6 +140,7 @@
     .botao:hover{
         background-color: #4c66f8;
         cursor: pointer;
+        transform: scale(1.5s);
     }
     
 }
