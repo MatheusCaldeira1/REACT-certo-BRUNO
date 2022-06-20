@@ -120,7 +120,7 @@ export default function Index(){
           <img className='img4' src='./image/d5c9b514b4a2e863a64ec7e97be4266d-personagem-de-homem-triste.png' alt=''/>
         </div>
             <div className='v5'>
-                <p>E lembre-se, quando
+                <p>E lembre se, quando
                 as coisas não andam
                 bem na sua cabeça
                 elas não andam bem
