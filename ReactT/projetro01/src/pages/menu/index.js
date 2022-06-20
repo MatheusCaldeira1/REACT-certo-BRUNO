@@ -36,7 +36,7 @@ export default function Index(){
     <div className='c1'>
        
       <div className='sc1'>
-          <img  className='img'  src='./image/CONSULTAR.png'/>
+          <img  className='img'  src='./image/CONSULTAR.png' alt=''/>
        <div>
         <Link className='a' to="/consultar"> Consultar Prontuarios</Link>
           
@@ -48,7 +48,7 @@ export default function Index(){
 
          <div className='c1'>
             <div className='sc1'>
-                <img  className='img' src='./image/Cadrastar.png'/>
+                <img  className='img' src='./image/Cadrastar.png' alt=''/>
                 <div className='cb'>
                     <Link className='a' to="/cadrasto">
                         Cadrastar Prontuarios

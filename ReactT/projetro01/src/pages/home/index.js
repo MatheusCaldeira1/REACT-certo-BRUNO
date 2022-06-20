@@ -29,9 +29,12 @@ export default function Index(){
 
       </div>
       <div className='subcontainer3'>
-        <h3 className='ax' > A sua saúde mental você</h3>
-        <h3 className='ax' >melhora aqui</h3>
+        <h3 className='ax' > A sua saúde mental você melhora aqui</h3>
       
+      </div>
+
+      <div>
+        
       </div>
  
     
@@ -43,12 +46,14 @@ export default function Index(){
             </div>
       <div className='subcontainer4' >
           <div className='v2'>
-            <p>Psicologia é area da ciência que</p>
-            <p>estuda a mente eo comportamento</p>
-            <p>humando e as suas interações com o</p>
-            <p>ambiente fiscio s social. A palavra</p>
-            <p>provém dos termos greeos psico</p>
-            <p>(alma) e logía (estudo).</p>
+          
+          Psicologia é área da ciência que
+            estuda a mente e o comportamento
+            humano e as suas interações com o
+            ambiente físico e social. A palavra
+            provém dos termos gregos psico
+            (alma) e logía (estudo).
+
 
           </div>
           <div>
@@ -59,7 +64,7 @@ export default function Index(){
 
     <div className='sub'>
       <div className='textoarrumado'>
-        O objetivo da psicologia e diagnosticar, comprender,explicar e orientar 
+        O objetivo da psicologia e diagnosticar, compreender, explicar e orientar 
         a mudança de comportamentos humanos
       </div>
       <div>
@@ -68,9 +73,9 @@ export default function Index(){
     </div>
 
     <div className='sub5'>
-      <div>
-        <h1>A Importancia de ter </h1>
-        <h1>um  Psicólogo</h1>
+      <div >
+        <h1>A Importancia de ter 
+        um  Psicólogo</h1>
       </div>
 
       <div  className='subcontainer4'>
@@ -78,12 +83,13 @@ export default function Index(){
           <img className='img4' src='./image/Psychologist-rafiki.png' alt=''/>
         </div> 
         <div className='v5' >
-          <p>Esse profissional serve como um</p>
-          <p> guia, que nos ajuda pelos caminhos</p>
-          <p>tortuosos da vida.Ele nos auxilia a lidar com</p>
-          <p>mais firmeza e segurança,adqurindo</p>
-          <p>maior conhecimento quanto a nós</p>
-          <p>mesmos.</p>
+          <p>
+          Esse profissional serve como um
+          guia, que nos ajuda pelos caminhos
+          tortuosos da vida. Ele nos auxilia a lidar com
+          mais firmeza e segurança, adquirindo
+          maior conhecimento quanto a nós
+          mesmos.</p>
           
         </div>
 
@@ -94,13 +100,13 @@ export default function Index(){
     <div className='v6'> 
       <div className='v5'>
         
-          <p>Uma das coisa que nós </p>
-          <p>poderemos te ajudar, e fazer</p>
-          <p>com que você se descubra,</p>
-          <p>conheça mais de si mesmo,</p>
-          <p>tenha auto controle , e te </p>
-          <p>ajudar a resolver os seus </p>
-          <p>problemas pessoais</p>
+          <p>Uma das coisas que nós 
+          poderemos te ajudar, e fazer
+          com que você se descubra,
+          conheça mais de si mesmo,
+          tenha autocontrole, e te 
+          ajudar a resolver os seus 
+          problemas pessoais</p>
         
       </div>
       <div className='v7'>
@@ -114,21 +120,21 @@ export default function Index(){
           <img className='img4' src='./image/d5c9b514b4a2e863a64ec7e97be4266d-personagem-de-homem-triste.png' alt=''/>
         </div>
             <div className='v5'>
-                <p>E lembre-se,quando</p>
-                <p>as coisas não andam</p>
-                <p>bem na sua cabeça</p>
-                <p>elas não andam bem</p>
-                <p>em lugar nenhum</p>
+                <p>E lembre-se, quando
+                as coisas não andam
+                bem na sua cabeça
+                elas não andam bem
+                em lugar nenhum</p>
             </div>
           
     </div>
    
   <div className='v6'>
     <div className='v5'>
-      <p>Entao venha,faça uma consulta com</p>
-      <p> a gente,garantimos um lugar </p>
-      <p>seguro e connfortavel para você se </p>
-      <p>abrir sobre os seu problemas</p>
+      <p>Então venha, faça uma consulta com
+       a gente, garantimos um lugar 
+      seguro e confortável para você se 
+      abrir sobre os seus problemas</p>
 
     </div>
     <div>
@@ -137,21 +143,21 @@ export default function Index(){
   </div>
 
 
-  <div class="a">
+  <div className='a'>
   <h1>Alguns dos nossos serviços</h1>
-   <div class="c">
+   <div className='c'>
      
           <div  className='content'>
             <div className='card'>
                   <div >
-                      <h2>Piscologia infantil</h2>
+                      <h2>Psicologia infantil</h2>
                     
                   </div> 
                   <div >
                     <img className='imgcard' src='./image/Social distance at school-bro.png' alt=''/>
                   </div>
                   <div>
-                        <spam className='buttomText'>A Psicologia Infantil é um ramo da ciência que trata das questões psíquicas de crianças. Assim, essa especialidade investiga e analisa o comportamento dessa faixa etária.</spam>
+                        <span className='buttomText'> A Psicologia Infantil é um ramo da ciência que trata das questões psíquicas de crianças. Assim, essa especialidade investiga e analisa o comportamento dessa faixa etária.</span>
                 </div>
                   
           </div>
@@ -168,12 +174,12 @@ export default function Index(){
                  <img className='imgcard' src='./image/Mental health-bro.png' alt=''/>
                </div>
                <div >
-                     <spam className='buttomText'>O autoconhecimento ou conhecimento de si é a investigação de si mesmo. Ele envolve o uso da autoconsciência e o desenvolvimento da autoimagem.</spam>
+                     <span className='buttomText'>O autoconhecimento ou conhecimento de si é a investigação de si mesmo. Ele envolve o uso da autoconsciência e o desenvolvimento da autoimagem.</span>
                </div>
              </div>
        </div>
     </div>
-    <div  class="content">
+    <div  className='content'>
      
             <div className='cardx'>
               <div >
@@ -184,7 +190,7 @@ export default function Index(){
                 <img className='imgcard' src='./image/Post-traumatic stress disorder-amico (1).png' alt=''/>
               </div>
               <div >
-                    <spam className='buttomText'>Mudanças de comportamento ou de humor, dificuldade de raciocínio ou concentração, problemas para conviver com outras pessoas ou expressar ideias com coerência, todos esses podem ser sinais de um transtorno mental.</spam>
+                    <span className='buttomText'>Mudanças de comportamento ou de humor, dificuldade de raciocínio ou concentração, problemas para conviver com outras pessoas ou expressar ideias com coerência, todos esses podem ser sinais de um transtorno mental.</span>
               </div>
             
             </div>
@@ -194,8 +200,7 @@ export default function Index(){
     </div>
     <div className='containerx'>
       <h1>Sobre Nós</h1>
-        <div className='texto2'> Nós somos  uma clinica   de psicologia, que atua na área desde 2012. E temos como missão
-        ajudar os nossos pacientes,  através da psicologia,  a  ter uma boa saúde mental </div>
+        <div className='texto2'>Nós somos uma clínica de psicologia, que atua na área desde 2012. E temos como missão ajudar os nossos pacientes, através da psicologia,  a  ter uma boa saúde mental </div>
       <div>
         <img className='imgx' src='./image/Mental health-amico.png' alt=''/>
       </div>
@@ -218,7 +223,7 @@ export default function Index(){
       </div>
       <div  className='subcontainerx1'> 
         <img  className=' imgc' src='./image/download.png' alt=''/>
-        <p  class="textorodape">5555-5555</p>
+        <p  className='textorodape'>5555-5555</p>
       </div>
       <div  className='subcontainerx1'>
         <img  className='imgc' src='./image/Icone-email-1-preto.png' alt=''/>
@@ -235,14 +240,14 @@ export default function Index(){
         
           <div className='f'> 
           <div className='f2'>
-            <img  className='iconesredes' src='./image//a6d555266824307026e70706659ff785.jpg' alt=''/>
+            <img className='iconesredes' src='./image//a6d555266824307026e70706659ff785.jpg' alt='dadas'/>
           </div>
           <div className='f2'>
-            <img   className='iconesredes' src='./image/icone-face.jpg' alt=''/>
+            <img className='iconesredes' src='./image/instagram1.jpg' alt='facebook'/>
             
           </div>
-          <div class="f2">
-            <img   className='icone-insta' src='./image/insta-icones.webp' alt=''/>
+          <div className='f2'>
+            <img className='icone-insta' src='./image/aaa.webp' alt='instagram'/>
           </div>
 
           </div>
