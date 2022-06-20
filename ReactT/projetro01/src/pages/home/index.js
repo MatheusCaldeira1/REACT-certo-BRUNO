@@ -243,11 +243,12 @@ export default function Index(){
             <img className='iconesredes' src='./image//a6d555266824307026e70706659ff785.jpg' alt='dadas'/>
           </div>
           <div className='f2'>
-            <img className='iconesredes' src='./image/instagram1.jpg' alt='facebook'/>
+       
+            <img className='iconesredes' src='./image/Ícone-logo-Facebook-PNG.png' alt='facebook'/>
             
           </div>
           <div className='f2'>
-            <img className='iconesredes' src='./image/aaa.webp' alt='instagram'/>
+            <img className='iconesredes' src='./image/vasco.jpg' alt='instagram'/>
           </div>
 
           </div>

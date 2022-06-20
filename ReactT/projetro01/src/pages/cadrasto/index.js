@@ -129,40 +129,40 @@ function botaoAlterarSalvar(){
      <div className='formulario1'>
                         <div class="cadrasto1">
                             <div>
-                                <h2>Nome</h2>
+                                <h3>Nome</h3>
                                 <input  type="text" value={nome} onChange={e => setNome(e.target.value)} />
                             </div>
                             <div>
-                                <h2>
+                                <h3>
                                 Cep
-                                </h2>
-                                <input type="text"value={cep} onChange={e => setCep(e.target.value)}/>
+                                </h3>
+                                <input type="number"value={cep} onChange={e => setCep(e.target.value)}/>
                             </div>
                             <div >
-                                <h2>
+                                <h3>
                                 Endereço
-                                </h2>
+                                </h3>
                                 <input type="text" value={endereco} onChange={e => setEndereco(e.target.value)} />
                             </div>
                         </div>
 
                         <div>
                             <div>
-                                <h2>
+                                <h3>
                                 Data de Nascimento
-                                </h2>
+                                </h3>
                                 <input type="date" value={dtNascimento} onChange={e => setDtNascimento(e.target.value)}/>
                             </div>
                             <div >
-                            <h2>
+                            <h3>
                                 Telefone
-                            </h2>
-                            <input type="text" value={telefone} onChange={e => setTelefone(e.target.value)}/>
+                            </h3>
+                            <input type="number" value={telefone} onChange={e => setTelefone(e.target.value)}/>
                         </div>
                         <div >
-                            <h2>
+                            <h3>
                                 Data da Consulta
-                            </h2>
+                            </h3>
                             <input type="date" value={consulata} onChange={e => setConsulta(e.target.value)}/>
                         </div>
                         
@@ -174,15 +174,15 @@ function botaoAlterarSalvar(){
                             <h2>Queixa Principal </h2>
                             <textarea  className='c1' value={queixaprincipal} onChange={e => setQueixaPrincipal(e.target.value)}> </textarea>
                         </div>
-                        <div  >
+                        <div  className='p1'>
                             <h2>Queixa Secundária </h2>
                             <textarea  className='c1' value={outrasqueixas} onChange={e => setOutrasQueixas(e.target.value)}></textarea>
                         </div>
-                        <div >
+                        <div className='p1' >
                             <h2>Anamnese </h2>
                             <textarea  className='c1' value={anamnese} onChange={e => setAnamnese(e.target.value)}></textarea>
                    </div>
-                   <div >
+                   <div className='p1' >
                             <h2>Hipótese </h2>
                             <textarea  className='c1' value={hipotese} onChange={e => setHipotese(e.target.value)}></textarea>
                    </div>
@@ -192,7 +192,7 @@ function botaoAlterarSalvar(){
     <h1>Tratamentos e Medicamentos</h1>
     <div>
                 <div >
-                    <div>
+                    <div >
                     <label for="input">Realizou Tratamentos Anteriores</label>
                     <input  type="checkbox" checked={temtratant} onChange={e => setTemtratant(e.target.checked)}/>
                     </div>
@@ -201,29 +201,29 @@ function botaoAlterarSalvar(){
                     <input  type="checkbox" checked={usamedicamentos} onChange={e => setUsamedicamentos(e.target.checked)}/>
                 </div>
 
-                <div  >
+                <div className='p1' >
                     <h2>Tratamentos Anteriores </h2>
                     <textarea   className='c1' type="text" value={trat_ant} onChange={e => setTratant(e.target.value)}></textarea>
                    
                 </div>
-                <div >
+                <div  className='p1'>
                     <h2>Medicamentos Utilizados </h2>
                     <textarea  className='c1' type="text" value={medicamentosUtilizados} onChange={e => setMedicamentosUtilizados(e.target.value)}></textarea>
                 </div>
-                <div > 
+                <div className='p1'  > 
                     <h2>Diagnósticos </h2>
                     <textarea   className='c1' type="text" value={diagnostico} onChange={e => setDiagnostico(e.target.value)}></textarea>
                 </div>    
-                <div  >
+                <div  className='p1' >
                     <h2>Metas Desejadas </h2>
                     <textarea  className='c1' type="text" value={metasalcancadas} onChange={e => setmetasalcacandas(e.target.value)}></textarea>
                 </div>  
                 
-                <div >
+                <div  className='p1'>
                     <h2>Sessões Realizadas</h2>
                     <textarea   className='c1' value={sessoesrealizadas} onChange={e => setSessoesrealizadas(e.target.value)}></textarea>
                 </div>  
-                <div>
+                <div className='p1'>
                     <h2> Próximas Sessões  </h2>
                     <textarea  className='c1' value={proximassessoes} onChange={e => setProximassessoes(e.target.value)}></textarea>
 
