@@ -194,7 +194,7 @@ export default function Index(){
     </div>
     <div className='containerx'>
       <h1>Sobre Nós</h1>
-        <div className='texto2'> Nós somo um um clinica   de psicologia, que atua na área desde 2012. E temos como missão
+        <div className='texto2'> Nós somos  uma clinica   de psicologia, que atua na área desde 2012. E temos como missão
         ajudar os nossos pacientes,  através da psicologia,  a  ter uma boa saúde mental </div>
       <div>
         <img className='imgx' src='./image/Mental health-amico.png' alt=''/>
@@ -205,50 +205,47 @@ export default function Index(){
     <div className='footer'>
       <div className='f3'>
       <div  className='subcontainer2'>
-        
            <img className='img1' src='./image/c1fa70e6b769e6e28d267bdfb67ca07e.jpg' alt=''/>
-           <h1  className='k'>Saude Mental</h1>
-        
+           <h1  className='titulorodape'>Saúde Mental</h1>
       </div>
-      <div >
-        <h1 className='k'>Contatos</h1>
+
+      <div className='subcontainerx1'>
+        <h1 className='titulorodape'>Contatos</h1>
       </div>
       <div  className='subcontainerx'>
         <img  className='imgc' src='/image/69d4234d292e7ad304519d74aad2f561.jpg' alt=''/>
-        <p  className='k'>55 11 92334-4234</p>
+        <p  className='textorodape'>55 11 92334-4234</p>
       </div>
       <div  className='subcontainerx1'> 
         <img  className=' imgc' src='./image/download.png' alt=''/>
-        <p  class="k">5555-5555</p>
+        <p  class="textorodape">5555-5555</p>
       </div>
       <div  className='subcontainerx1'>
         <img  className='imgc' src='./image/Icone-email-1-preto.png' alt=''/>
-        <p  className='k' >MarcoFelipe@gmail.com</p>
+        <p  className='textorodape' >MarcosFelipe@gmail.com</p>
       </div>
       </div>
       <div className='f1'>
-        <h1 className='k'>
-          Psicologo responsável
+        <h1 className='titulorodape'>
+          Psicólogo responsável
         </h1>
-        <h1 className='k'>
+        <p className='psicoresp'>
           Marcos Felipe prado
-        </h1>
+        </p>
         
           <div className='f'> 
           <div className='f2'>
-            <img  className='imgc' src='./image//a6d555266824307026e70706659ff785.jpg' alt=''/>
+            <img  className='iconesredes' src='./image//a6d555266824307026e70706659ff785.jpg' alt=''/>
           </div>
           <div className='f2'>
-            <img   className='imgc' src='./image/1a1aa162e286baa94871e0724cda27ee.jpg' alt=''/>
+            <img   className='iconesredes' src='./image/icone-face.jpg' alt=''/>
             
           </div>
           <div class="f2">
-            <img   className='imgc' src='./image/aaa.png' alt=''/>
+            <img   className='icone-insta' src='./image/insta-icones.webp' alt=''/>
           </div>
 
           </div>
-
-         
         </div>
       </div>
    

@@ -3,24 +3,23 @@
         margin-top: 1em;
         margin-left: 0.5em;
         color: rgb(189, 140, 140);
+        width: 45em;
+        font-size: 2.3em;
         
     }
-    
-    
-    
+
     .containermae{
         display: flex;
         flex-direction: column;
-        
-       
+
     }
     .footer{
        display: flex;
        flex-direction:row ;
        background-color: rgb(42, 42, 48);
-       height: 60vh;
+       height: 45vh;
        justify-content: space-around;
-       padding: 2em;
+       padding-right: 8em;
 
     }
             
@@ -29,15 +28,17 @@
         margin: 3em;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        width: 15em;
 
     }
     .f1{
-        
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
         justify-content: center;
+        padding-top: 7em;
     }
     .f3{
         display: flex;
@@ -45,6 +46,7 @@
         text-align: center;
         align-items: flex-start;
         justify-content: center;
+        width: 20em;
     }
 
     .container1{
@@ -81,27 +83,35 @@
     .subcontainer2{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-       
+        justify-content: start;
+        align-items: flex-start;
+        width: 20em;
+        margin-top: 1em;
+        margin-left: 1.5em;
+
     }
     
     .subcontainerx{
-        margin-top: 4em;
+        margin-top: 2em;
         display: flex;
         flex-direction: row;
-        justify-content:start;
-        margin-left: 3em;
+        justify-content: start;
+        align-items: center;
+        padding-left: 2.5em;
+    
     }
     .subcontainerx1{
-        margin-top: 1EM;
+        margin-top: 0.7EM;
         display: flex;
         flex-direction: row;
         justify-content:start;
-        margin-left: 3em;
+        align-items: center;
+        padding-left: 2.5em;
+        
     }
     
     .subcontainer3{
-        margin-top: 2em;
+        margin-top: 10em;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -120,6 +130,26 @@
     .textoarrumado{
         font-size: 26px;
         width: 820px;
+        font-family: 'discord5';
+    }
+
+    .titulorodape {
+        font-size: 2em;
+        color: white;
+    
+    }
+
+    .textorodape {
+        font-size: 1.1em;
+        color: white;
+        font-family: 'discord5';
+
+    }
+
+    .psicoresp {
+        font-size: 1.5em;
+        color: rgb(255, 255, 255);
+        margin-top: 1em;
         font-family: 'discord5';
     }
     
@@ -150,6 +180,12 @@
      flex-direction: row;
      text-align: center;
     }
+    
+    .v5 {
+        width: 27.5em;
+    }
+
+
     .v6{
         display: flex;
         flex-direction: row;
@@ -161,6 +197,7 @@
         height: 60vh;
     
     }
+   
     
     .v8{
      display: flex;
@@ -174,24 +211,29 @@
     
     
     .img1{
-        height: 100px;
-        width: 100px;
-        border-radius: 70px;
-        margin-top: 0.6em;
-        margin-left: 0.6em;
-        
-    }
-    
-    .imgc{
         height: 70px;
         width: 70px;
         border-radius: 70px;
-        
+
     }
     
+    .imgc{
+        width: 40px;
+        height: 40px;
+        margin-right: 0.6em;
+        border-radius: 40px;
+    }
     
-    
-    
+    .iconesredes {
+        width: 50px;
+        height: 50px;
+        border-radius: 40px;
+        margin-left: 1em;
+    }
+
+    .icone-insta {
+        width: 73px;
+    }
     
     .img2{
         height: 400px;
@@ -218,10 +260,10 @@
         border-radius: 30px;
         border: none;
         background-color: rgb(33, 47, 167);
-        margin-top: 1em;
-        margin-right: 0.6em;
-        font-size: 15px;
-        font-family:'discord3', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 1.2em;
+        margin-right: 1.2em;
+        font-size: 1em;
+        font-family:'discord5';
         
 
        
@@ -237,17 +279,22 @@
         color: white;
         text-decoration: none;
     }
-    
+
+    .texto2{
+        font-size: 20px;
+        color: rgb(3, 3, 3);
+    }
+
     .card{
         width: 300px;
         height: 510px;
         background-color: #C7A5FE;
         border-radius: 20px;
         overflow: hidden;
- 
         transition:  .3s;
-        padding: 15px;
+        padding: 20px;
     }
+    
     .cardx{
         width: 300px;
         height: 510px;
@@ -278,7 +325,8 @@
     }
     .imgcard{
         height: 255px;
-        width: 255px; 
+        width: 255px;
+         
     }
     
     .content{
@@ -302,21 +350,16 @@
     
     .containerx{
         margin-top: 1em;
-        
-      padding: 2px;
+        padding: 2px;
         display: flex;
         flex-direction: column;
         text-align: center;
-     
+        justify-content: space-around;
         align-items: center;
         background-color: #D7C5FF ;
-        height: 70vh;
+        height: 80vh;
     }
-    .texto2{
-        font-size: 26px;
-        width: 900px;
-        font-family: 'discord5';
-    }
+   
 
 
     .imgx{
@@ -327,6 +370,7 @@
     .buttomText{
         font-family: 'discord5';
         line-height: 3px;
+        font-size: 1em;
     }
     .ax{
         color: rgb(255, 255, 255);
@@ -345,7 +389,7 @@
     p{
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         line-height: 1.2em;
-        font-size: 20px;
+        font-size: 1.7em;
     }
     
     h1{
@@ -367,174 +411,13 @@
     span{
         font-family: 'discord5';
     }
-    
-    @media(max-width:500px)
-{
-     footer{
-         display: flex;
-         flex-direction: row;
-     }
-     .v2{
-        margin: 0px;
-      
-     }
-     .img2{
-        height: 200px;
-     }
-     .container1{
-        display: flex;
-        flex-direction: column;
-        height: 50vh;
-        background-position: center;
-     }
-     .subcontainer1{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-    }
-     .subcontainer2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .subcontainer3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-     .container2{
-        height: 55vh;
-     }
-
-     .v8{
-         padding: 2em;
-         display: flex;
-         flex-direction: column;
-         height: 55vh;
-     }
-    .subcontainer4{
-        display: flex;
-        flex-direction: column;
-    }
-    .sub{
-        height: 40vh;
-        display: flex;
-        flex-direction: column;
-
-    }
-     .v6{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-        padding: 0;
-     }
-
-     .textoarrumado{
-        font-size: 15px;
-        width: 320px;
-        font-family: 'discord5';
-    }
-
-     .containerx{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        background-color: #D7C5FF ;
-        height: 55vh;
-        font-size: 15px;
-        font-family: 'discord5';
-    }
-    .texto2{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        font-size: 15px;
-      
-       
-        font-family: 'discord5';
-    }
-
-    h3{
-        color: rgb(253, 253, 253);
-        font-size: 30px;
-    }  
-    h1{
-        margin-top: 1em;
-        font-size: 22px;
-        line-height: 30px;
-    }
-    p{
-        line-height: 10px;
-       font-size: 15px;
-
-    }
-    .img1{
-     height: 79px;
-     width: 80px;
-     border-radius: 199px;
-    }
-    .img2{
-        height: 255px;
-         width: 255px;
-    
-    
-    }
-    .img3{
-        height: 255px;
-         width: 255px;
-    
-    
-    }
-    .img4{
-        height: 255px;
-         width: 255px;
-    }
-    .imgx{
-        height: 255px;
-        width: 255px;
-       
-    }
-    .imgc{
-        height: 30px;
-        width: 30px;
-        border-radius: 70px;
-        
-    }
-    .card{
-        margin-top: 2em;
-    }
-    .cardx{
-        margin-top: 2em;
-    }
- 
-    .c{
-        display: flex;
-        flex-direction: column;
-       justify-content: center;
-    }
- 
-     .a{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-     }
-     .ax{
-        font-size: 1.5em;
-     }
 
 }
 
 
    
     
-}
+
 @font-face {
     font-family: 'discord1';
    src: url('../../../public/fontes/1cce82154216dc3cb04a84d011ce1201.woff2');
