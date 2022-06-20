@@ -217,7 +217,7 @@ export default function Index(){
       <div className='subcontainerx1'>
         <h1 className='titulorodape'>Contatos</h1>
       </div>
-      <div  className='subcontainerx'>
+      <div  className='subcontainerx1'>
         <img  className='imgc' src='/image/69d4234d292e7ad304519d74aad2f561.jpg' alt=''/>
         <p  className='textorodape'>55 11 92334-4234</p>
       </div>
@@ -247,7 +247,7 @@ export default function Index(){
             
           </div>
           <div className='f2'>
-            <img className='icone-insta' src='./image/aaa.webp' alt='instagram'/>
+            <img className='iconesredes' src='./image/aaa.webp' alt='instagram'/>
           </div>
 
           </div>

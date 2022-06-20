@@ -23,12 +23,10 @@
             
    
     .f{
-        margin: 3em;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 15em;
-
+        margin-top: 25px;
     }
     .f1{
         display: flex;
@@ -36,7 +34,6 @@
         text-align: center;
         align-items: center;
         justify-content: center;
-        padding-top: 7em;
     }
     .f3{
         display: flex;
@@ -44,7 +41,6 @@
         text-align: center;
         align-items: flex-start;
         justify-content: center;
-        width: 20em;
     }
 
     .container1{
@@ -91,22 +87,12 @@
 
     }
     
-    .subcontainerx{
-        margin-top: 2em;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        padding-left: 2.5em;
-    
-    }
     .subcontainerx1{
-        margin-top: 0.7EM;
         display: flex;
         flex-direction: row;
         justify-content:start;
         align-items: center;
-        padding-left: 2.5em;
+        margin: 10px;
         
     }
     
@@ -224,27 +210,22 @@
         height: 70px;
         width: 70px;
         border-radius: 70px;
-
+        margin-right: 15px;
     }
     
     .imgc{
-        width: 40px;
-        height: 40px;
-        margin-right: 0.6em;
-        border-radius: 40px;
+        width: 45px;
+        height: 45px;
+        border-radius: 45px;
+        margin-right: 10px;
     }
     
     .iconesredes {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         border-radius: 40px;
-        margin-left: 1em;
     }
-
-    .icone-insta {
-        width: 73px;
-    }
-    
+  
     .img2{
         height: 400px;
          width: 400px;
@@ -334,6 +315,7 @@
     .imgcard{
         height: 255px;
         width: 255px;
+        margin-bottom: 20px;
          
     }
     
@@ -426,6 +408,8 @@
          footer{
              display: flex;
              flex-direction: row;
+             height: 55 vh;
+             justify-content: space-around;
          }
          .v2{
             margin: 0px;
@@ -447,9 +431,50 @@
             font-size: 0.9em;
             font-family:'discord5';
          }
+         .f{
+            display: flex;
+            flex-direction: column;
+
+         }
+         .iconesredes {
+            width: 30px;
+            height: 30px;
+            border-radius: 40px;
+        }
+        .psicoresp{
+            font-size: 20px;
+        }
+         .f3{
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+         }
+         .subcontainerx1{
+            display: flex;
+            flex-direction: row;
+            justify-content: start;
+            margin-top: 10px;
+         }
+         .f1{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+         }
+         .f2{
+            margin-top: 10px;
+         }
+         .titulorodape{
+            font-size: 20px;
+         }
+         .textorodape{
+            font-size: 15px;
+         }
          .k{
             font-size: 20px;
          }
+         
          .subcontainer1{
             display: flex;
             flex-direction: row;
@@ -461,7 +486,6 @@
          .subcontainer2{
             display: flex;
             flex-direction: row;
-            align-items: flex-start;
         }
         .subcontainer3{
             display: flex;
@@ -527,7 +551,7 @@
             line-height: 1.2em;
             font-size: 15px;
         }
-    
+
         h3{
             color: rgb(253, 253, 253);
             font-size: 30px;
@@ -544,9 +568,10 @@
     
         }
         .img1{
-         height: 79px;
-         width: 80px;
-         border-radius: 199px;
+         height: 50px;
+         width: 50px;
+         border-radius: 50px;
+         margin-right: 10px;
         }
         .img2{
             height: 255px;
