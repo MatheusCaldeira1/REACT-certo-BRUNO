@@ -62,7 +62,7 @@ export default function Index() {
          
             <div>
                    <button className='button2'>
-                   <Link to="/home"> voltar </Link>
+                   <Link to="/"> voltar </Link>
                    </button>
               
 

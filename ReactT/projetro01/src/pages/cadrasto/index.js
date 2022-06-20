@@ -66,7 +66,7 @@ async function carregarProntuario() {
 
 async function botaoCadastrar(){
     try{
-        const usuario = storage('asuario-logado').id;
+        const usuario = storage('usuario-logado').id;
         if(id === 0){ 
         const r = await cadastrarProntuario(nome,dtNascimento,cep,endereco,telefone,
             consulata, queixaprincipal, outrasqueixas,anamnese,hipotese,temtratant,
@@ -197,7 +197,7 @@ function botaoAlterarSalvar(){
                     <input  type="checkbox" checked={temtratant} onChange={e => setTemtratant(e.target.checked)}/>
                     </div>
                     <div>
-                    <label  className='c2' for="input"> Não Usa Medicamentos</label>
+                    <label  className='c2' for="input">Usa Medicamentos</label>
                     <input  type="checkbox" checked={usamedicamentos} onChange={e => setUsamedicamentos(e.target.checked)}/>
                 </div>
 

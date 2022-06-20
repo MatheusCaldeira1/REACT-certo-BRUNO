@@ -13,13 +13,13 @@ export default function Index(){
          <div className='subcontainer2'>
            <img className='img1' src='./image/c1fa70e6b769e6e28d267bdfb67ca07e.jpg' alt=''/>
            <h1 className='k'>
-            Saude Mental
+            Saúde Mental
           </h1>
          </div>
         
          <div >
            <button className='b1'>
-           <Link to="/login"> Area Administrativa </Link>
+           <Link to="/login"> Área Administrativa </Link>
 
            </button>
          </div>
@@ -29,7 +29,7 @@ export default function Index(){
 
       </div>
       <div className='subcontainer3'>
-        <h3 className='ax' > A sua saude mental você</h3>
+        <h3 className='ax' > A sua saúde mental você</h3>
         <h3 className='ax' >melhora aqui</h3>
       
       </div>

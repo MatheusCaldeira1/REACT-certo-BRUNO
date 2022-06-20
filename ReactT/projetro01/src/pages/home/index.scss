@@ -387,7 +387,7 @@
     }
     
     p{
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-family: 'discord3';
         line-height: 1.2em;
         font-size: 1.7em;
     }
@@ -412,6 +412,171 @@
         font-family: 'discord5';
     }
 
+    @media(max-width:500px)
+    {
+         footer{
+             display: flex;
+             flex-direction: row;
+         }
+         .v2{
+            margin: 0px;
+         }
+         .img2{
+            height: 200px;
+         }
+         .container1{
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+            
+         }
+         .subcontainer1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+           
+        }
+         .subcontainer2{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .subcontainer3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+        }
+         .container2{
+            height: 55vh;
+         }
+    
+         .v8{
+             padding: 2em;
+             display: flex;
+             flex-direction: column;
+             height: 55vh;
+         }
+        .subcontainer4{
+            display: flex;
+            flex-direction: column;
+        }
+        .sub5{
+            height: 60vh;
+        }
+        .sub{
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+    
+        }
+         .v6{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            padding: 0;
+         }
+    
+         .textoarrumado{
+            font-size: 15px;
+            width: 320px;
+            font-family: 'discord5';
+        }
+    
+         .containerx{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            background-color: #D7C5FF ;
+            height: 55vh;
+            font-size: 15px;
+            font-family: 'discord5';
+        }
+        .texto2{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            font-size: 15px;
+            width: 420px;
+            font-family: 'discord5';
+        }
+    
+        h3{
+            color: rgb(253, 253, 253);
+            font-size: 30px;
+        }  
+        h1{
+            margin-top: 1em;
+            font-size: 22px;
+            line-height: 30px;
+        }
+        p{
+            font-family: 'discord5';
+            line-height: 10px;
+           font-size: 15px;
+    
+        }
+        .img1{
+         height: 79px;
+         width: 80px;
+         border-radius: 199px;
+        }
+        .img2{
+            height: 255px;
+             width: 255px;
+        
+        
+        }
+        .img3{
+            height: 255px;
+             width: 255px;
+        
+        
+        }
+        .img4{
+            height: 255px;
+             width: 255px;
+        }
+        .imgx{
+            height: 255px;
+            width: 255px;
+           
+        }
+        .imgc{
+            height: 30px;
+            width: 30px;
+            border-radius: 70px;
+            
+        }
+        .card{
+            margin-top: 2em;
+        }
+        .cardx{
+            margin-top: 2em;
+        }
+     
+        .c{
+            display: flex;
+            flex-direction: column;
+           justify-content: center;
+        }
+     
+         .a{
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+         }
+         .ax{
+            font-size: 1.5em;
+         }
+    
+    }
 }
 
 

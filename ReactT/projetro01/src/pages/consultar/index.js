@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { confirmAlert } from 'react-confirm-alert';
 
-import {excluirPaciente, listarPorNome, listarTodosFilmes, buscarPacientesNome, listarTodosPacientes} from '../../api/pacienteAPI';
+import {excluirPaciente, buscarPacientesNome, listarTodosPacientes} from '../../api/pacienteAPI';
 
 
 
@@ -36,7 +36,7 @@ export default function Index(){
                     carregarTodosPacientes();
                     else
                     filtrar();
-                    alert('filme removido');
+                    alert('Prontuário removido');
                  }
             },
             {

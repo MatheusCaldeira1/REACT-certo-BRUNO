@@ -68,7 +68,7 @@ queixaprincipal, outrasqueixas, anamnese, hipotese,temtratant,usamedicamentos, t
     }
 
     export async function buscarPacientesNome(nome){ 
-        const respost = await api.get(`'/pacientes/filtro?nome=${nome}`)
+        const respost = await api.get(`/pacientes/filtro?nome=${nome}`)
         return respost.data;
         }
 
