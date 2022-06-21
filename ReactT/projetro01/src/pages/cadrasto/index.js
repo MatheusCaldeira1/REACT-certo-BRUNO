@@ -152,7 +152,7 @@ function botaoAlterarSalvar(){
                             </div>
                         </div>
 
-                        <div>
+                        <div className='cadrastro1'>
                             <div>
                                 <h3>
                                 Data de Nascimento

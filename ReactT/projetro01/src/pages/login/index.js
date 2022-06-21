@@ -71,7 +71,7 @@ export default function Index() {
 
                     <div className='div1'>
                         <h1>Login</h1>
-                        <input type="text" placeholder="email" value={email} onChange={e => setEmail(e.target.value)} /> 
+                        <input type="text" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} /> 
                     <br />   <br />
                         <input type="password" placeholder="Senha" value={senha} onChange={e => setSenha(e.target.value)}/>
                         <br />
