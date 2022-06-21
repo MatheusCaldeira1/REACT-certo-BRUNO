@@ -1,5 +1,5 @@
 .page-cadrastro{
-    background-image: linear-gradient(100deg, rgb(138, 228, 240), rgb(81, 255, 90));
+    background-image: linear-gradient(100deg, rgb(222, 117, 248),rgb(122, 207, 247));
     padding: 2em;
  
     .main{
@@ -7,11 +7,31 @@
         flex-direction: column;
         text-align: center;
     }
+    .button{
+        padding: 10px 10px;
+        background-color: #4b10aa;
+        text-decoration: none;
+         border-radius: 20px;
+       transition:  background-color 1s;
+        color: white;
+       font-size: 15px;
+       font-family: 'discord5';
+    }
+   
+    .button:hover{
+       background-color: #8740f8;
+    }
     .formulario1{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         margin-top: 5em;
+    }
+    input{
+        padding: 7px 7px;
+        border-radius: 5px;
+        outline: none;
+        border: none;
     }
      .c2{
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -76,25 +96,11 @@
         margin-bottom: 2em;
     }
     
-    .button{
-        font-family:sans-serif;
-        padding: 10px 10px;
-       background-color: #4b10aa;
-       text-decoration: none;
-       border-radius: 20px;
-       transition:  background-color 1s;
-       color: white;
-       transform: scale(1.05);
-       font-size: 15px;
-    }
-    .button:hover{
-        transform: scale(0.5s);
-        background-color: #8740f8;
-     }
+    
 
     button{
         padding: 15px 20px;
-        border-radius: 15px;
+        border-radius: 20px;
         text-align: center;
         border: none;
         background-color: #2848ff;
@@ -111,6 +117,7 @@
     
     textarea{
         border-radius: 10px;
+       
         
         
     }

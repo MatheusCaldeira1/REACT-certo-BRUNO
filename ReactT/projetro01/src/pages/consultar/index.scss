@@ -1,11 +1,13 @@
 .page-consultar{
+
+    background-image: linear-gradient(100deg, rgb(68, 140, 247), rgb(56, 245, 166));
+        min-height: 100vh;
    
     .main{
       display: flex;
         flex-direction: column;  
         align-items: center;
-        background-image: linear-gradient(100deg, rgb(8, 101, 241), rgb(56, 245, 166));
-        height: 100vh;
+        
     }
     .main2{
         display: flex;
@@ -15,13 +17,14 @@
     .cx{
         display:flex;
         flex-direction: row;
+        margin: 4em 0em;
     }
     h1{
         font-size: 50px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     .c1{
-        margin-top: 5em;
+        margin-top: 1em;
         display: flex;
         flex-direction: row;
     }
@@ -30,21 +33,28 @@
         display: flex;
         flex-direction: row;
     }
-    .bca{
-        background-image: linear-gradient(100deg, rgb(8, 101, 241), rgb(56, 245, 166));
-        align-items: center;
+    .divb{
+        display: flex;
+        
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        padding: 35px 35px;
+    
     }
     .b1{
-        text-decoration: none;
-        padding: 10px 12px;
-        background-color:rgb(10, 7, 156);
-       font-family: 'discord5';
-        font-size: 15px;
+        padding: 10px 10px;
+        background-color: #4b10aa;
         border-radius: 20px;
-        border: none;
+        text-decoration: none;
+        transition:  background-color 1s;
+        color: white;
+        font-size: 15px;
+        font-family: 'discord5';
+        
     }
     .b1:hover{
-        background-color:rgb(27, 24, 182);
+        background-color: #8740f8;
         cursor: pointer;
     }
         
@@ -64,7 +74,7 @@
     }
     .btnome:hover{
         cursor: pointer;
-        background-color:rgb(50, 112, 245);
+        background-color:rgb(0, 4, 14);
     }
 
     .c2{

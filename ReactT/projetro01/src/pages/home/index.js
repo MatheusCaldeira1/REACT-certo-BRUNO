@@ -74,7 +74,7 @@ export default function Index(){
 
     <div className='sub5'>
       <div >
-        <h1>A Importancia de ter 
+        <h1>A Importância de ter 
         um  Psicólogo</h1>
       </div>
 
@@ -101,7 +101,7 @@ export default function Index(){
       <div className='v5'>
         
           <p>Uma das coisas que nós 
-          poderemos te ajudar, e fazer
+          poderemos te ajudar, é fazer
           com que você se descubra,
           conheça mais de si mesmo,
           tenha autocontrole, e te 
@@ -120,7 +120,7 @@ export default function Index(){
           <img className='img4' src='./image/d5c9b514b4a2e863a64ec7e97be4266d-personagem-de-homem-triste.png' alt=''/>
         </div>
             <div className='v5'>
-                <p>E lembre se, quando
+                <p>E lembre-se, quando
                 as coisas não andam
                 bem na sua cabeça
                 elas não andam bem

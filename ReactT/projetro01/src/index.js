@@ -8,6 +8,8 @@ import 'react-confirm-alert/src/react-confirm-alert.css'
 
 
 
+
+
 import Cadrastar from './pages/cadrasto'
 import Consultar from './pages/consultar'
 import Home from './pages/home'

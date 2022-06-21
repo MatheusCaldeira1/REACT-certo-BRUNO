@@ -3,8 +3,10 @@ import { Link, useParams } from 'react-router-dom';
 import storage, { set } from 'local-storage' ;
 
 import { alterarProntuario, cadastrarProntuario, listarId } from '../../api/pacienteAPI';
-import {toast} from 'react-toastify'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './index.scss';
+import { confirmAlert } from 'react-confirm-alert';
 
 
 export default function Index(){
@@ -73,7 +75,7 @@ async function botaoCadastrar(){
             usamedicamentos,trat_ant,medicamentosUtilizados,diagnostico,metasalcancadas,
             sessoesrealizadas,proximassessoes,usuario);
             setId(r.id);
-            alert(`Paciente Cadastrado 🔥🔥`)
+            toast(`Paciente Cadastrado 🔥🔥`)
             }
             else
             { 
@@ -81,11 +83,11 @@ async function botaoCadastrar(){
                 consulata, queixaprincipal, outrasqueixas,anamnese,hipotese,temtratant,
                 usamedicamentos,trat_ant,medicamentosUtilizados,diagnostico,metasalcancadas,
                 sessoesrealizadas,proximassessoes,usuario)  
-                alert('PRONTUÁRIO ALTERADO COM SUCESSO 😁')
+                toast('PRONTUÁRIO ALTERADO COM SUCESSO 😁')
             }
-            toast('📖 Prontuario Cadastrado com sucesso!')
+          
     }catch(err){
-        alert(err.response.data.erro)
+        toast(err.response.data.erro)
     }
 }
 function botaoAlterarSalvar(){
@@ -111,13 +113,17 @@ function botaoAlterarSalvar(){
 }
 
     return(
+
        <main className='page-cadrastro' >
-               <div className='c2'>
+            <ToastContainer />
+
+        <div className='c2'>
             <Link className='button' to="/menu">Voltar</Link>
         </div>
 
 
       <div className='main'>
+
     
      
       <div className='cabecalho'>
@@ -127,7 +133,7 @@ function botaoAlterarSalvar(){
     
       
      <div className='formulario1'>
-                        <div class="cadrasto1">
+                        <div className='cadrasto1'>
                             <div>
                                 <h3>Nome</h3>
                                 <input  type="text" value={nome} onChange={e => setNome(e.target.value)} />
@@ -136,7 +142,7 @@ function botaoAlterarSalvar(){
                                 <h3>
                                 Cep
                                 </h3>
-                                <input type="number"value={cep} onChange={e => setCep(e.target.value)}/>
+                                <input type="text"value={cep} onChange={e => setCep(e.target.value)}/>
                             </div>
                             <div >
                                 <h3>
@@ -157,7 +163,7 @@ function botaoAlterarSalvar(){
                             <h3>
                                 Telefone
                             </h3>
-                            <input type="number" value={telefone} onChange={e => setTelefone(e.target.value)}/>
+                            <input type="text" value={telefone} onChange={e => setTelefone(e.target.value)}/>
                         </div>
                         <div >
                             <h3>
@@ -188,7 +194,7 @@ function botaoAlterarSalvar(){
                    </div>
    </div>
 
-   <div class="formulario3" >
+   <div className='formulario3' >
     <h1>Tratamentos e Medicamentos</h1>
     <div>
                 <div >
@@ -226,7 +232,7 @@ function botaoAlterarSalvar(){
                 <div className='p1'>
                     <h2> Próximas Sessões  </h2>
                     <textarea  className='c1' value={proximassessoes} onChange={e => setProximassessoes(e.target.value)}></textarea>
-
+                
               </div>
       </div>
       </div> 
@@ -234,7 +240,7 @@ function botaoAlterarSalvar(){
    </div> 
    <div className='x2'>
        <button onClick={botaoCadastrar}> 
-        {id === 0 ? 'Cadrastar Prontuario' : 'Alterar Prontuário'}
+        {id === 0 ? 'Cadastrar Prontuário' : 'Alterar Prontuário'}
        </button> &nbsp;  &nbsp;
        <button onClick={botaoAlterarSalvar}> Novo </button> &nbsp;  &nbsp;
        

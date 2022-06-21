@@ -27,7 +27,7 @@ export default function Index(){
        <main className='page-menu' >
             <div onClick={sairClick} className='c2'>
           
-          <Link className='button' to="/login">SAIR</Link>
+          <Link className='button' to="/login">Voltar</Link>
      
         </div>
 
@@ -38,7 +38,7 @@ export default function Index(){
       <div className='sc1'>
           <img  className='img'  src='./image/CONSULTAR.png' alt=''/>
        <div>
-        <Link className='a' to="/consultar"> Consultar Prontuarios</Link>
+        <Link className='a' to="/consultar"> Consultar Prontuários</Link>
           
       </div>
      
@@ -51,7 +51,7 @@ export default function Index(){
                 <img  className='img' src='./image/Cadrastar.png' alt=''/>
                 <div className='cb'>
                     <Link className='a' to="/cadrasto">
-                        Cadrastar Prontuarios
+                        Cadastrar Prontuário
                     </Link>
                 </div>
             </div>
